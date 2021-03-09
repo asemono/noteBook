@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T12:48:07.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="XKveQwVE89Hp3UziDD37" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T12:52:50.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="UkKdyh23h6kmF3fjcYX4" version="14.4.5" type="github">
   <diagram id="54JpTdfItre1pZ1kOJsL" name="Page-1">
-    <mxGraphModel dx="2247" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4884" dy="2291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -162,7 +162,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QEoaWC793-4Zo-ghc8d9-3" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1130" y="80" width="440" height="580" as="geometry" />
+          <mxGeometry x="125" y="988.12" width="440" height="580" as="geometry" />
         </mxCell>
         <mxCell id="QEoaWC793-4Zo-ghc8d9-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="QEoaWC793-4Zo-ghc8d9-3" vertex="1">
           <mxGeometry y="-18.125" width="440" height="580" as="geometry" />
@@ -188,41 +188,14 @@
         <mxCell id="QEoaWC793-4Zo-ghc8d9-12" value="notify&lt;br&gt;subs[i].update()" style="rounded=1;whiteSpace=wrap;html=1;" parent="QEoaWC793-4Zo-ghc8d9-3" vertex="1">
           <mxGeometry x="32.59" y="380" width="163.7" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-11" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="570" y="1100" width="330" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-11">
-          <mxGeometry y="-10" width="270" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-13" value="scheduler.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-11">
-          <mxGeometry x="67.5" y="18.823529411764707" width="135" height="37.64705882352941" as="geometry" />
-        </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-14" value="queueWatcher(watcher: Wacher)&lt;br&gt;queue.push(watcher)&lt;br&gt;&lt;br&gt;nextTick(flushSchedulerQueue)&lt;br&gt;watcher.before()&lt;br&gt;watcher.run();" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-11">
-          <mxGeometry x="10" y="56.47" width="250" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-16" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-11">
-          <mxGeometry x="10" y="178.53" width="250" height="121.47" as="geometry" />
-        </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-17" value="walk(obj: Object)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-11">
-          <mxGeometry y="188.53" width="130" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-18" value="defineReactive(obj, keys[i])" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-11">
-          <mxGeometry x="17.5" y="208.53" width="165" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-19" value="observeArray(items: Array&amp;lt;any&amp;gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-11">
-          <mxGeometry x="10" y="248.53" width="200" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-20" value="observe(items[i])" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-11">
-          <mxGeometry x="17.5" y="268.53" width="112.5" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-22" value="pushTarget&lt;br&gt;targetStack.push(target)&lt;br&gt;Dep.target = target" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="798.53" width="170" height="170" as="geometry" />
+          <mxGeometry x="-175" y="775" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-23" value="popTarget&lt;br&gt;targetStack.pop()&lt;br&gt;Dep.target = targetStack[targetStack.length - 1]" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1000" width="230" height="195" as="geometry" />
+          <mxGeometry x="-195" y="960" width="230" height="195" as="geometry" />
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-24" value="traverse(val: any)&lt;br&gt;递归遍历val，触发所有getter&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="1290" width="140" height="130" as="geometry" />
+          <mxGeometry x="-370" y="1200" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-25" value="mountComponent&lt;br&gt;&lt;br&gt;new Watcher(vm, updateComponent, noop, {&lt;br&gt;&lt;div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; before() {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; callHook(vm, &#39;beforeUpdate&#39;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;}, true/* isRenderWatcher */)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;updateComponent = () =&amp;gt; {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; vm._update(vm._render(), hydrating)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-650" y="220" width="301.54" height="280" as="geometry" />
@@ -237,10 +210,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-28" value="vm._render()&lt;br&gt;生成vdom" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="620" width="80" height="80" as="geometry" />
+          <mxGeometry x="-70" y="676.47" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-29" value="vm_update&lt;br&gt;将vdom渲染成真实dom" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="110" y="550.01" width="80" height="80" as="geometry" />
+          <mxGeometry x="80" y="490" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-30" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-650" y="570.005" width="440" height="579.9999999999999" as="geometry" />
@@ -301,23 +274,56 @@
             <mxPoint x="120" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-37" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-PFMty3CgXfp4CKKNk7-28" target="N-PFMty3CgXfp4CKKNk7-29">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-37" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-PFMty3CgXfp4CKKNk7-28" target="N-PFMty3CgXfp4CKKNk7-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="690" as="sourcePoint" />
             <mxPoint x="120" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="716" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-38" value="updateComponent方法实际上会调用_render和_update渲染生成真实dom" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="718.82" width="240" height="20" as="geometry" />
+          <mxGeometry x="-210" y="650" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-39" value="_render和_update期间会遍历data，触发它所有的getter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="520" width="170" height="20" as="geometry" />
+          <mxGeometry x="35" y="460" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-40" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-PFMty3CgXfp4CKKNk7-29" target="gLvemcn_4eIjXF4gPNdU-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="720" as="sourcePoint" />
             <mxPoint x="250" y="670" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-43" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gLvemcn_4eIjXF4gPNdU-45" target="QEoaWC793-4Zo-ghc8d9-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="740" as="sourcePoint" />
+            <mxPoint x="140" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1090" width="270" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-13" value="scheduler.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="847.5" y="1118.8235294117646" width="135" height="37.64705882352941" as="geometry" />
+        </mxCell>
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-14" value="queueWatcher(watcher: Wacher)&lt;br&gt;queue.push(watcher)&lt;br&gt;&lt;br&gt;nextTick(flushSchedulerQueue)&lt;br&gt;watcher.before()&lt;br&gt;watcher.run();" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1156.47" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-16" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1278.53" width="250" height="121.47" as="geometry" />
+        </mxCell>
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-17" value="walk(obj: Object)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1288.53" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-18" value="defineReactive(obj, keys[i])" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="797.5" y="1308.53" width="165" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-19" value="observeArray(items: Array&amp;lt;any&amp;gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1348.53" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-20" value="observe(items[i])" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="797.5" y="1368.53" width="112.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

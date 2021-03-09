@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T06:44:12.460Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="8cEPDhjhA3mOlRlbtR2R" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T06:59:09.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="q-BwWsv38HZqJeBXYr7U" version="14.4.5" type="github">
   <diagram id="54JpTdfItre1pZ1kOJsL" name="Page-1">
     <mxGraphModel dx="1420" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -200,11 +200,11 @@
         <mxCell id="N-PFMty3CgXfp4CKKNk7-4" value="vm: Component;&lt;br&gt;expression: string;&lt;br&gt;cb: Function;&lt;br&gt;id: number;&lt;br&gt;deep: boolean;&lt;br&gt;user: boolean;&lt;br&gt;lazy: boolean;&lt;br&gt;sync: boolean;&lt;br&gt;dirty: boolean;&lt;br&gt;active: boolean;&lt;br&gt;deps: Array&amp;lt;Dep&amp;gt;;&lt;br&gt;newDeps: Array&amp;lt;Dep&amp;gt;;&lt;br&gt;depIds: SimpleSet;&lt;br&gt;newDepIds: SimpleSet;&lt;br&gt;before: ?Function;&lt;br&gt;getter: Function;&lt;br&gt;value: any;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1122.59" y="911.86" width="177.41" height="358.14" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-5" value="addSub&lt;br&gt;this.subs.push(sub)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="924.6" width="163.7" height="60" as="geometry" />
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-5" value="get()&lt;br&gt;pushTarget(this)&lt;br&gt;value = this.getter.call(vm, vm)&lt;br&gt;traverse(value)&lt;br&gt;popTarget()&lt;br&gt;this.cleanupDeps()&lt;br&gt;return value;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="928.53" width="180" height="131.47" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-6" value="removeSub&lt;br&gt;remove(this.subs, sub)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="1004.6" width="163.7" height="60" as="geometry" />
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-6" value="addDep(dep: Dep)&lt;br&gt;this.newDepIds.add(id)&lt;br&gt;this.newDeps.push(dep)&lt;br&gt;!this.depIds.has(id) &amp;amp;&amp;amp; dep.addSub(this)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1100" width="220" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T14:08:04.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="7fGweePVpxNd1_fpE0k8" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T14:09:34.625Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="Ua8xXcbJ7_nJNBCcKuC9" version="14.4.5" type="github">
   <diagram id="54JpTdfItre1pZ1kOJsL" name="Page-1">
     <mxGraphModel dx="2498" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -189,7 +189,7 @@
           <mxGeometry x="32.59" y="380" width="163.7" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-22" value="pushTarget&lt;br&gt;targetStack.push(target)&lt;br&gt;Dep.target = target" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-620" y="1368.53" width="170" height="170" as="geometry" />
+          <mxGeometry x="-620" y="1920" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-23" value="popTarget&lt;br&gt;targetStack.pop()&lt;br&gt;Dep.target = targetStack[targetStack.length - 1]" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-650" y="1710" width="230" height="195" as="geometry" />
@@ -349,6 +349,18 @@
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-49" value="触发getter进行依赖收集时，将其dep添加给对应的watcher" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-260" y="1180" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-50" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QEoaWC793-4Zo-ghc8d9-12" target="N-PFMty3CgXfp4CKKNk7-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1180" as="sourcePoint" />
+            <mxPoint x="110" y="1130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-550" y="1399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-51" value="触发setter进行派发更新时，调用对应watcher的update方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-439.23" y="1380" width="339.23" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

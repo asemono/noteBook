@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T13:53:45.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="zL7mw629zZM4hTpl4-Dv" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T14:08:04.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="7fGweePVpxNd1_fpE0k8" version="14.4.5" type="github">
   <diagram id="54JpTdfItre1pZ1kOJsL" name="Page-1">
     <mxGraphModel dx="2498" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -189,13 +189,13 @@
           <mxGeometry x="32.59" y="380" width="163.7" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-22" value="pushTarget&lt;br&gt;targetStack.push(target)&lt;br&gt;Dep.target = target" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-175" y="775" width="170" height="170" as="geometry" />
+          <mxGeometry x="-620" y="1368.53" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-23" value="popTarget&lt;br&gt;targetStack.pop()&lt;br&gt;Dep.target = targetStack[targetStack.length - 1]" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-195" y="960" width="230" height="195" as="geometry" />
+          <mxGeometry x="-650" y="1710" width="230" height="195" as="geometry" />
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-24" value="traverse(val: any)&lt;br&gt;递归遍历val，触发所有getter&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="1200" width="140" height="130" as="geometry" />
+          <mxGeometry x="-605" y="1560" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-25" value="mountComponent&lt;br&gt;&lt;br&gt;new Watcher(vm, updateComponent, noop, {&lt;br&gt;&lt;div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; before() {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; callHook(vm, &#39;beforeUpdate&#39;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;}, true/* isRenderWatcher */)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;updateComponent = () =&amp;gt; {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; vm._update(vm._render(), hydrating)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-650" y="220" width="301.54" height="280" as="geometry" />
@@ -336,6 +336,19 @@
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-47" value="触发属性setter, 进行派发更新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="727.65" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-48" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QEoaWC793-4Zo-ghc8d9-11" target="N-PFMty3CgXfp4CKKNk7-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1000" as="sourcePoint" />
+            <mxPoint x="-60" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-60" y="1312" />
+              <mxPoint x="-60" y="919" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-49" value="触发getter进行依赖收集时，将其dep添加给对应的watcher" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="1180" width="360" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

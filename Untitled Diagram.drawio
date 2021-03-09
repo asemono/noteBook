@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T12:52:50.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="UkKdyh23h6kmF3fjcYX4" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T13:53:45.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="zL7mw629zZM4hTpl4-Dv" version="14.4.5" type="github">
   <diagram id="54JpTdfItre1pZ1kOJsL" name="Page-1">
-    <mxGraphModel dx="4884" dy="2291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2498" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -162,7 +162,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QEoaWC793-4Zo-ghc8d9-3" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="125" y="988.12" width="440" height="580" as="geometry" />
+          <mxGeometry x="120" y="988.53" width="440" height="580" as="geometry" />
         </mxCell>
         <mxCell id="QEoaWC793-4Zo-ghc8d9-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="QEoaWC793-4Zo-ghc8d9-3" vertex="1">
           <mxGeometry y="-18.125" width="440" height="580" as="geometry" />
@@ -324,6 +324,18 @@
         </mxCell>
         <mxCell id="N-PFMty3CgXfp4CKKNk7-20" value="observe(items[i])" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="797.5" y="1368.53" width="112.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-45" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gLvemcn_4eIjXF4gPNdU-48" target="QEoaWC793-4Zo-ghc8d9-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="920" as="sourcePoint" />
+            <mxPoint x="370" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-46" value="触发属性的getter，进行依赖收集" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="736.47" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-47" value="触发属性setter, 进行派发更新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="727.65" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

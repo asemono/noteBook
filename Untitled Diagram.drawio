@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T06:02:36.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="IRlzzjgHFOatlRMoI8L1" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T03:37:53.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="mbsVaJ25wWLB_ezzsr2z" version="14.4.7" type="github">
   <diagram id="54JpTdfItre1pZ1kOJsL" name="Page-1">
     <mxGraphModel dx="3074" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -188,61 +188,61 @@
         <mxCell id="QEoaWC793-4Zo-ghc8d9-12" value="notify&lt;br&gt;subs[i].update()" style="rounded=1;whiteSpace=wrap;html=1;" parent="QEoaWC793-4Zo-ghc8d9-3" vertex="1">
           <mxGeometry x="32.59" y="380" width="163.7" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-22" value="pushTarget&lt;br&gt;targetStack.push(target)&lt;br&gt;Dep.target = target" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-22" value="pushTarget&lt;br&gt;targetStack.push(target)&lt;br&gt;Dep.target = target" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1200" y="680" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-23" value="popTarget&lt;br&gt;targetStack.pop()&lt;br&gt;Dep.target = targetStack[targetStack.length - 1]" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-23" value="popTarget&lt;br&gt;targetStack.pop()&lt;br&gt;Dep.target = targetStack[targetStack.length - 1]" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1230" y="432.5" width="230" height="195" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-24" value="traverse(val: any)&lt;br&gt;递归遍历val，触发所有getter&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-24" value="traverse(val: any)&lt;br&gt;递归遍历val，触发所有getter&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-930" y="770" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-25" value="mountComponent&lt;br&gt;&lt;br&gt;new Watcher(vm, updateComponent, noop, {&lt;br&gt;&lt;div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; before() {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; callHook(vm, &#39;beforeUpdate&#39;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;}, true/* isRenderWatcher */)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;updateComponent = () =&amp;gt; {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; vm._update(vm._render(), hydrating)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-25" value="mountComponent&lt;br&gt;&lt;br&gt;new Watcher(vm, updateComponent, noop, {&lt;br&gt;&lt;div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; before() {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; callHook(vm, &#39;beforeUpdate&#39;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;}, true/* isRenderWatcher */)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;updateComponent = () =&amp;gt; {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; vm._update(vm._render(), hydrating)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-650" y="220" width="301.54" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-26" value="初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-26" value="初始化" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="80" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-27" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-PFMty3CgXfp4CKKNk7-26" target="gLvemcn_4eIjXF4gPNdU-3">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-27" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="N-PFMty3CgXfp4CKKNk7-26" target="gLvemcn_4eIjXF4gPNdU-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="290" as="sourcePoint" />
             <mxPoint x="410" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-28" value="vm._render()&lt;br&gt;生成vdom" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-28" value="vm._render()&lt;br&gt;生成vdom" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-70" y="676.47" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-29" value="vm._update&lt;br&gt;将vdom渲染成真实dom" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-29" value="vm._update&lt;br&gt;将vdom渲染成真实dom" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="80" y="490" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-30" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-30" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-650" y="570.005" width="440" height="579.9999999999999" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-30">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="N-PFMty3CgXfp4CKKNk7-30" vertex="1">
           <mxGeometry width="440" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-2" value="Watcher&lt;br&gt;(A watcher parses an expression, collects dependencies, and fires callback when the expression value changes.This is used for both the $watch() api and directives)&lt;br&gt;&lt;br&gt;this.get()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-30">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-2" value="Watcher&lt;br&gt;(A watcher parses an expression, collects dependencies, and fires callback when the expression value changes.This is used for both the $watch() api and directives)&lt;br&gt;&lt;br&gt;this.get()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="N-PFMty3CgXfp4CKKNk7-30" vertex="1">
           <mxGeometry x="110" y="33.52499999999998" width="220" height="86.95" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-3" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-30">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-3" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="N-PFMty3CgXfp4CKKNk7-30" vertex="1">
           <mxGeometry x="16.299999999999955" y="144.995" width="407.41" height="393.13" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-4" value="vm: Component;&lt;br&gt;expression: string;&lt;br&gt;cb: Function;&lt;br&gt;id: number;&lt;br&gt;deep: boolean;&lt;br&gt;user: boolean;&lt;br&gt;lazy: boolean;&lt;br&gt;sync: boolean;&lt;br&gt;dirty: boolean;&lt;br&gt;active: boolean;&lt;br&gt;deps: Array&amp;lt;Dep&amp;gt;;&lt;br&gt;newDeps: Array&amp;lt;Dep&amp;gt;;&lt;br&gt;depIds: SimpleSet;&lt;br&gt;newDepIds: SimpleSet;&lt;br&gt;before: ?Function;&lt;br&gt;getter: Function;&lt;br&gt;value: any;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-30">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-4" value="vm: Component;&lt;br&gt;expression: string;&lt;br&gt;cb: Function;&lt;br&gt;id: number;&lt;br&gt;deep: boolean;&lt;br&gt;user: boolean;&lt;br&gt;lazy: boolean;&lt;br&gt;sync: boolean;&lt;br&gt;dirty: boolean;&lt;br&gt;active: boolean;&lt;br&gt;deps: Array&amp;lt;Dep&amp;gt;;&lt;br&gt;newDeps: Array&amp;lt;Dep&amp;gt;;&lt;br&gt;depIds: SimpleSet;&lt;br&gt;newDepIds: SimpleSet;&lt;br&gt;before: ?Function;&lt;br&gt;getter: Function;&lt;br&gt;value: any;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="N-PFMty3CgXfp4CKKNk7-30" vertex="1">
           <mxGeometry x="30" y="152.05499999999995" width="140" height="271.47" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-5" value="get()&lt;br&gt;pushTarget(this)&lt;br&gt;value = this.getter.call(vm, vm)&lt;br&gt;traverse(value)&lt;br&gt;popTarget()&lt;br&gt;this.cleanupDeps()&lt;br&gt;return value;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-30">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-5" value="get()&lt;br&gt;pushTarget(this)&lt;br&gt;value = this.getter.call(vm, vm)&lt;br&gt;traverse(value)&lt;br&gt;popTarget()&lt;br&gt;this.cleanupDeps()&lt;br&gt;return value;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="N-PFMty3CgXfp4CKKNk7-30" vertex="1">
           <mxGeometry x="180" y="156.32499999999993" width="220" height="131.47" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-6" value="addDep(dep: Dep)&lt;br&gt;this.newDepIds.add(id)&lt;br&gt;this.newDeps.push(dep)&lt;br&gt;!this.depIds.has(id) &amp;amp;&amp;amp; dep.addSub(this)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-30">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-6" value="addDep(dep: Dep)&lt;br&gt;this.newDepIds.add(id)&lt;br&gt;this.newDeps.push(dep)&lt;br&gt;!this.depIds.has(id) &amp;amp;&amp;amp; dep.addSub(this)" style="rounded=1;whiteSpace=wrap;html=1;" parent="N-PFMty3CgXfp4CKKNk7-30" vertex="1">
           <mxGeometry x="180" y="293.525" width="220" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-9" value="update()&lt;br&gt;queueWatcher(this)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-30">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-9" value="update()&lt;br&gt;queueWatcher(this)" style="rounded=1;whiteSpace=wrap;html=1;" parent="N-PFMty3CgXfp4CKKNk7-30" vertex="1">
           <mxGeometry x="40" y="433.525" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-10" value="run()&lt;br&gt;const value = this.get()&lt;br&gt;oldValue = this.value;&lt;br&gt;this.value = value;&lt;br&gt;this.cb.call(this.vm, value, oldValue)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-30">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-10" value="run()&lt;br&gt;const value = this.get()&lt;br&gt;oldValue = this.value;&lt;br&gt;this.value = value;&lt;br&gt;this.cb.call(this.vm, value, oldValue)" style="rounded=1;whiteSpace=wrap;html=1;" parent="N-PFMty3CgXfp4CKKNk7-30" vertex="1">
           <mxGeometry x="180" y="412.525" width="220" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-62" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="N-PFMty3CgXfp4CKKNk7-30" source="N-PFMty3CgXfp4CKKNk7-10" target="N-PFMty3CgXfp4CKKNk7-5">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-62" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="N-PFMty3CgXfp4CKKNk7-30" source="N-PFMty3CgXfp4CKKNk7-10" target="N-PFMty3CgXfp4CKKNk7-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="479.995" as="sourcePoint" />
             <mxPoint x="320" y="429.995" as="targetPoint" />
@@ -252,16 +252,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-31" value="$mount首次挂载" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-31" value="$mount首次挂载" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-559.23" y="20" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-32" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-PFMty3CgXfp4CKKNk7-31" target="N-PFMty3CgXfp4CKKNk7-25">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-32" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="N-PFMty3CgXfp4CKKNk7-31" target="N-PFMty3CgXfp4CKKNk7-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-260" y="600" as="sourcePoint" />
             <mxPoint x="-210" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-33" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-PFMty3CgXfp4CKKNk7-25" target="N-PFMty3CgXfp4CKKNk7-1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-33" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="N-PFMty3CgXfp4CKKNk7-25" target="N-PFMty3CgXfp4CKKNk7-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-260" y="600" as="sourcePoint" />
             <mxPoint x="-210" y="550" as="targetPoint" />
@@ -272,19 +272,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-34" value="调用$mount挂载会创建一个Watcher实例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-34" value="调用$mount挂载会创建一个Watcher实例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-500" y="150" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-35" value="执行Watcher实例的get方法，调用getter实际上就是updateComponent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-35" value="执行Watcher实例的get方法，调用getter实际上就是updateComponent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-910" y="460" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-36" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-PFMty3CgXfp4CKKNk7-1" target="N-PFMty3CgXfp4CKKNk7-28">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-36" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="N-PFMty3CgXfp4CKKNk7-1" target="N-PFMty3CgXfp4CKKNk7-28" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="690" as="sourcePoint" />
             <mxPoint x="120" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-37" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-PFMty3CgXfp4CKKNk7-28" target="N-PFMty3CgXfp4CKKNk7-29">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-37" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="N-PFMty3CgXfp4CKKNk7-28" target="N-PFMty3CgXfp4CKKNk7-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="690" as="sourcePoint" />
             <mxPoint x="120" y="640" as="targetPoint" />
@@ -293,37 +293,37 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-38" value="updateComponent方法实际上会调用_render和_update渲染生成真实dom" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-38" value="updateComponent方法实际上会调用_render和_update渲染生成真实dom" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-80" y="640" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-39" value="_render和_update期间会遍历data，触发它所有的getter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-39" value="_render和_update期间会遍历data，触发它所有的getter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="35" y="460" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-40" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-PFMty3CgXfp4CKKNk7-29" target="gLvemcn_4eIjXF4gPNdU-45">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-40" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="N-PFMty3CgXfp4CKKNk7-29" target="gLvemcn_4eIjXF4gPNdU-45" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="720" as="sourcePoint" />
             <mxPoint x="250" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-43" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gLvemcn_4eIjXF4gPNdU-45" target="QEoaWC793-4Zo-ghc8d9-4">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-43" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gLvemcn_4eIjXF4gPNdU-45" target="QEoaWC793-4Zo-ghc8d9-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="90" y="740" as="sourcePoint" />
             <mxPoint x="140" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-45" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gLvemcn_4eIjXF4gPNdU-48" target="QEoaWC793-4Zo-ghc8d9-4">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-45" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gLvemcn_4eIjXF4gPNdU-48" target="QEoaWC793-4Zo-ghc8d9-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="920" as="sourcePoint" />
             <mxPoint x="370" y="870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-46" value="触发属性的getter，进行依赖收集" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-46" value="触发属性的getter，进行依赖收集" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="840" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-47" value="触发属性setter, 进行派发更新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-47" value="触发属性setter, 进行派发更新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="430" y="727.65" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-48" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QEoaWC793-4Zo-ghc8d9-11" target="N-PFMty3CgXfp4CKKNk7-6">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-48" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QEoaWC793-4Zo-ghc8d9-11" target="N-PFMty3CgXfp4CKKNk7-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="1000" as="sourcePoint" />
             <mxPoint x="-60" y="780" as="targetPoint" />
@@ -333,10 +333,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-49" value="触发getter进行依赖收集时，将其dep添加给对应的watcher" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-49" value="触发getter进行依赖收集时，将其dep添加给对应的watcher" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-260" y="1180" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-50" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QEoaWC793-4Zo-ghc8d9-12" target="N-PFMty3CgXfp4CKKNk7-9">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-50" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="QEoaWC793-4Zo-ghc8d9-12" target="N-PFMty3CgXfp4CKKNk7-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="1180" as="sourcePoint" />
             <mxPoint x="110" y="1130" as="targetPoint" />
@@ -345,31 +345,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-51" value="触发setter进行派发更新时，调用对应watcher的update方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-51" value="触发setter进行派发更新时，调用对应watcher的update方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-439.23" y="1380" width="339.23" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-52" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-52" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-1250" y="920" width="270" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-52">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="N-PFMty3CgXfp4CKKNk7-52" vertex="1">
           <mxGeometry width="270" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-13" value="scheduler.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-52">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-13" value="scheduler.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="N-PFMty3CgXfp4CKKNk7-52" vertex="1">
           <mxGeometry x="67.5" y="28.82352941176464" width="135" height="37.64705882352941" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-14" value="queueWatcher(watcher: Watcher)&lt;br&gt;queue.push(watcher)&lt;br&gt;&lt;br&gt;nextTick(flushSchedulerQueue)&lt;br&gt;watcher.before()&lt;br&gt;watcher.run();" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="N-PFMty3CgXfp4CKKNk7-52">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-14" value="queueWatcher(watcher: Watcher)&lt;br&gt;queue.push(watcher)&lt;br&gt;&lt;br&gt;nextTick(flushSchedulerQueue)&lt;br&gt;watcher.before()&lt;br&gt;watcher.run();" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="N-PFMty3CgXfp4CKKNk7-52" vertex="1">
           <mxGeometry x="10" y="66.47000000000003" width="250" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-53" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-PFMty3CgXfp4CKKNk7-9" target="N-PFMty3CgXfp4CKKNk7-14">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-53" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="N-PFMty3CgXfp4CKKNk7-9" target="N-PFMty3CgXfp4CKKNk7-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-580" y="1080" as="sourcePoint" />
             <mxPoint x="-530" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-55" value="queueWatcher在下一轮tick时触发watcher.run方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-55" value="queueWatcher在下一轮tick时触发watcher.run方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-970" y="1010" width="290" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-56" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="N-PFMty3CgXfp4CKKNk7-14" target="N-PFMty3CgXfp4CKKNk7-57">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-56" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="N-PFMty3CgXfp4CKKNk7-14" target="N-PFMty3CgXfp4CKKNk7-57" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-580" y="1390" as="sourcePoint" />
             <mxPoint x="-1380" y="1330" as="targetPoint" />
@@ -378,10 +378,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-57" value="下一轮tick" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-57" value="下一轮tick" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-1390" y="1290" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-58" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-PFMty3CgXfp4CKKNk7-57" target="N-PFMty3CgXfp4CKKNk7-10">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-58" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="N-PFMty3CgXfp4CKKNk7-57" target="N-PFMty3CgXfp4CKKNk7-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-650" y="1280" as="sourcePoint" />
             <mxPoint x="-600" y="1230" as="targetPoint" />
@@ -390,10 +390,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-59" value="执行watcher实例的run方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-59" value="执行watcher实例的run方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1050" y="1310" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-60" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-PFMty3CgXfp4CKKNk7-5" target="N-PFMty3CgXfp4CKKNk7-23">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-60" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="N-PFMty3CgXfp4CKKNk7-5" target="N-PFMty3CgXfp4CKKNk7-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-580" y="870" as="sourcePoint" />
             <mxPoint x="-250" y="460" as="targetPoint" />
@@ -403,11 +403,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-PFMty3CgXfp4CKKNk7-61" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-PFMty3CgXfp4CKKNk7-23" target="N-PFMty3CgXfp4CKKNk7-22">
+        <mxCell id="N-PFMty3CgXfp4CKKNk7-61" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="N-PFMty3CgXfp4CKKNk7-23" target="N-PFMty3CgXfp4CKKNk7-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-700" y="760" as="sourcePoint" />
             <mxPoint x="-650" y="710" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SP0spKqqpWYquruvveHk-1" value="&amp;nbsp;observer可以认为是一个帮助执行defineReactive的执行器，封装了一些判断逻辑，更重要的是会给被observer的对象添加一个__ob__属性，指向当前生成的observer实例，同样，实例的value属性又指向了当前被observer的对象，另外__ob__实例上会挂在一个dep实例" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="110" width="350" height="500" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

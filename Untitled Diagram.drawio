@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T07:09:58.715Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="i6e2dY17RidJF0TTX0qy" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T07:12:20.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="CRGXCrZGsTxYmFJQeSqV" version="14.4.7" type="github">
   <diagram id="54JpTdfItre1pZ1kOJsL" name="Page-1">
-    <mxGraphModel dx="5204" dy="2005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3325" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -411,6 +411,9 @@
         </mxCell>
         <mxCell id="SP0spKqqpWYquruvveHk-1" value="&amp;nbsp;observer可以认为是一个帮助执行defineReactive的执行器，封装了一些判断逻辑，更重要的是会给被observer的对象添加一个__ob__属性，指向当前生成的observer实例，同样，实例的value属性又指向了当前被observer的对象，另外__ob__实例上会挂在一个dep实例" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="900" y="10" width="350" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="SP0spKqqpWYquruvveHk-2" value="$watch的原理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="1650" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

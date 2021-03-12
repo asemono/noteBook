@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T07:30:19.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="TAtxk6IcbRROUVmxMVM5" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T07:37:03.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="FlE7FU9W-dv7yWLIMoPN" version="14.4.7" type="github">
   <diagram id="54JpTdfItre1pZ1kOJsL" name="Page-1">
     <mxGraphModel dx="3325" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -438,6 +438,18 @@
         </mxCell>
         <mxCell id="SP0spKqqpWYquruvveHk-8" value="触发this.get()方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-689.23" y="1670" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SP0spKqqpWYquruvveHk-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SP0spKqqpWYquruvveHk-3" target="SP0spKqqpWYquruvveHk-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-500" y="1770" as="sourcePoint" />
+            <mxPoint x="-880" y="2020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SP0spKqqpWYquruvveHk-11" value="&amp;nbsp; 1. queueWatch(this)&lt;br&gt;&amp;nbsp; 2. 在下一轮事件循环的时候触发watcher实例的run方法&lt;br&gt;&amp;nbsp; 3. run方法中重新调用this.get方法，触发this.getter方法，并调用cb进行处理" style="ellipse;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1045" y="2020" width="330" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="SP0spKqqpWYquruvveHk-12" value="当watch监听的value发生变化时，会触发其对应的setter&lt;br&gt;从而触发订阅watcher的update方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="1880" width="320" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-04T10:28:55.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="J1cFipBxDVVHfsmfqIkE" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-04T10:29:55.527Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="8krHmST6S_N_ebU9C4hA" version="14.5.7" type="github">
   <diagram id="j2B5BdcdwhaLv2333zJS" name="Page-1">
     <mxGraphModel dx="941" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -172,6 +172,12 @@
         </mxCell>
         <mxCell id="SLYkX3Cr12hfYoF84NpN-48" value="等待2MSL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="57.5" y="1060" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SLYkX3Cr12hfYoF84NpN-49" value="三次握手" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SLYkX3Cr12hfYoF84NpN-50" value="四次挥手" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="365" y="700" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

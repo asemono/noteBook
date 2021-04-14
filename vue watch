@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T18:25:11.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="6tTBz3mOY0vSMicis1bj" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T18:26:20.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="_iyuNLeahNy1cy5SxeJ2" version="14.6.0" type="github">
   <diagram id="wAYXeH14Siom2f4gdKp2" name="Page-1">
     <mxGraphModel dx="2888" dy="-6" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,13 +23,13 @@
           <mxGeometry x="-600" y="1480" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SfgiQyZ90EHgutWyIj9r-19" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-735" y="1590.0049999999999" width="440" height="579.9999999999999" as="geometry" />
+          <mxGeometry x="-735" y="1590.0049999999999" width="490" height="579.9999999999999" as="geometry" />
         </mxCell>
         <mxCell id="SfgiQyZ90EHgutWyIj9r-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="SfgiQyZ90EHgutWyIj9r-19">
           <mxGeometry width="440" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="SfgiQyZ90EHgutWyIj9r-21" value="Watcher&lt;br&gt;(A watcher parses an expression, collects dependencies, and fires callback when the expression value changes.This is used for both the $watch() api and directives)&lt;br&gt;&lt;br&gt;this.value = this.lazy ? undefined : this.get()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SfgiQyZ90EHgutWyIj9r-19">
-          <mxGeometry x="75" y="10" width="290" height="106.95" as="geometry" />
+        <mxCell id="SfgiQyZ90EHgutWyIj9r-21" value="Watcher&lt;br&gt;(A watcher parses an expression, collects dependencies, and fires callback when the expression value changes.This is used for both the $watch() api and directives)&lt;br&gt;&lt;br&gt;this.getter = expOrFn is Function ? expOrFn : parsePath(expOrFn)&lt;br&gt;this.value = this.lazy ? undefined : this.get()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SfgiQyZ90EHgutWyIj9r-19">
+          <mxGeometry x="12.5" y="10" width="415" height="106.95" as="geometry" />
         </mxCell>
         <mxCell id="SfgiQyZ90EHgutWyIj9r-22" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="SfgiQyZ90EHgutWyIj9r-19">
           <mxGeometry x="16.299999999999955" y="144.995" width="407.41" height="393.13" as="geometry" />

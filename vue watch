@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T18:05:51.095Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.6.0" etag="xDnb-PpDXT6uOYzkd2XM" type="github"><diagram id="wAYXeH14Siom2f4gdKp2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-14T18:11:41.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="Bzni4qY8BO7vFO3sf4bx" version="14.6.0" type="github">
+  <diagram id="wAYXeH14Siom2f4gdKp2" name="Page-1">
+    <mxGraphModel dx="2888" dy="-6" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SfgiQyZ90EHgutWyIj9r-12" value="渲染流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SfgiQyZ90EHgutWyIj9r-13" value="new Vue时执行的init方法内部,会执行this.$mount方法&lt;br&gt;(如果传入了el的话)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="1430" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
